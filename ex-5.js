@@ -2,3 +2,8 @@
 let companyName = "TechUp";
 
 // Start coding here
+for (let key in companyName) {
+  console.log(
+    "Number " + (Number(key) + 1) + " character is " + companyName[key]
+  );
+}
